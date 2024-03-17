@@ -1,0 +1,51 @@
+html,body{
+  height: 99%;
+  width: 99%;
+}
+*{
+  box-sizing: border-box;
+}
+.banner{
+  background-color: rgb(255,250,250,0.4);
+  margin: 15px;
+  padding: 10px;
+  border: 3px solid lightpink;
+  box-shadow: 1px 3px 30px 1px pink;
+  outline: 10px 10px lavender groove;
+  text-transform: capitalize;
+  text-shadow: 1px 1px lavender ;
+  font-family: fantasy;
+  height: 150px;
+  text-align: right;
+  font-style: oblique;
+}
+h1{
+  font-size: 0.7em;
+}
+
+#logo{
+  width: 100px;
+  position: absolute;
+  top: 4   0;
+  right: 650px;
+}
+.container{
+  border:2px pink solid;
+  position: relative;
+  top: 2px;
+  margin: 15px;
+  padding: 10px;
+  height: 700px;
+  overflow: hidden;
+  background-color: rgb(255,250,250,0.4);
+} 
+
+.container{
+  border:2px pink solid;
+  top: 10px;
+  margin: 15px;
+  padding: 10px;
+  height: 500px;
+  overflow: hidden;
+  background-color: rgb(255,250,250,0.4);
+} 
