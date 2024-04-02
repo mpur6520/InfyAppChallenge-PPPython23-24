@@ -1,5 +1,54 @@
 html {
-  height: 100%;
+  height: 99%;
   width: 100%;
 }
 
+body {
+  background-color: #ebffe5;
+  font-family: monospace;
+}
+
+iframe{
+  padding: 20px 20px;
+  margin: 10px 10px;
+  background-color: #fff;
+  border: solid 5px #49744c;
+  width: 45%;
+  height: 500px;
+}
+
+.header{
+  width: 98%;
+  height: 10%;
+  background-color: #49744c;
+  padding: 20px 10px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 1px 5px 5px 1px #f0fff7;
+}
+
+.active{
+  padding: 10px 150px;
+  color: #ffffff;
+}
+
+.active:hover{
+  background-color: #ffffff;
+  color: #77bb85;
+}
+
+#slides{
+  float: left;
+}
+
+#planning{
+  float: right;
+}
+
+#mockup{
+  float: right;
+}
+
+#wireframe{
+  float: left;
+}
