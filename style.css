@@ -13,8 +13,14 @@ iframe{
   margin: 10px 10px;
   background-color: #fff;
   border: solid 5px #49744c;
-  width: 45%;
+  width: 33%;
   height: 500px;
+}
+
+#presentation{
+  width: 98%;
+  position: absolute;
+  left: 5px;
 }
 
 .header{
@@ -38,7 +44,7 @@ iframe{
 }
 
 #slides{
-  float: left;
+  width: 100%;
 }
 
 #planning{
@@ -46,7 +52,7 @@ iframe{
 }
 
 #mockup{
-  float: right;
+  float: center;
 }
 
 #wireframe{
