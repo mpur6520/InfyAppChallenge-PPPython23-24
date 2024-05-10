@@ -8,15 +8,6 @@ body {
   font-family: monospace;
 }
 
-iframe{
-  padding: 20px 20px;
-  margin: 10px 18.5px;
-  background-color: #fff;
-  border: solid 5px #49744c;
-  width: 29%;
-  height: 500px;
-}
-
 .header{
   width: 98%;
   height: 10%;
@@ -43,13 +34,22 @@ iframe{
 }
 
 #planning{
-  float: left;
+  position: relative;
+  left: 2px;
 }
 
 #mockup{
-  float: left;
+  position: relative;
+  left: 2px;
 }
 
 #wireframe{
-  float: left;
+  padding: 20px 20px;
+  margin: 10px 18.5px;
+  background-color: #fff;
+  border: solid 5px #49744c;
+  width: 29%;
+  height: 500px;
+  position: relative;
+  left: 2px;
 }
